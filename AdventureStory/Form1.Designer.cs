@@ -53,7 +53,7 @@
             this.outputLabel.AutoSize = true;
             this.outputLabel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.ForeColor = System.Drawing.Color.White;
-            this.outputLabel.Location = new System.Drawing.Point(12, 9);
+            this.outputLabel.Location = new System.Drawing.Point(1, 9);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(81, 18);
             this.outputLabel.TabIndex = 1;
