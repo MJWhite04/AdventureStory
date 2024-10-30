@@ -181,7 +181,7 @@ namespace AdventureStory
             {
                 //creates random number
                 int rando = randgen.Next(1, 101);
-                if (rando > 50)
+                if (rando > 70)
                 {
                     page = 100;
                 }
@@ -202,6 +202,10 @@ namespace AdventureStory
             switch (page)
             {
                 case 1:
+                    //enables the buttons
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = true;
+                    option3Button.Enabled = false;
                     ScarySound.Play();
                     outputLabel.Text = "You are Trapped, Play Game?";
                     option1Label.Text = "Yes";
@@ -209,6 +213,9 @@ namespace AdventureStory
                     option3Label.Text = "";
                     break;
                 case 2:
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = true;
+                    option3Button.Enabled = true;
                     outputLabel.Text = "Muliple Choice.";
                     Refresh();
                     Thread.Sleep(1000);
@@ -220,6 +227,10 @@ namespace AdventureStory
                     option3Label.Text = "USA";
                     break;
                 case 3:
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = true;
+                    option3Button.Enabled = false;
+                    imageBox.Image = Properties.Resources.Black;
                     outputLabel.Text = "Beat level 1/3";
                     Refresh();
                     Thread.Sleep(1000);
@@ -230,6 +241,9 @@ namespace AdventureStory
                     option3Label.Text = "";
                     break;
                 case 4:
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = true;
+                    option3Button.Enabled = true;
                     BearGrowl.Play();
                     imageBox.Image = Properties.Resources.forest;
                     outputLabel.Text = "You hear something in the woods what do you do?";
@@ -238,13 +252,19 @@ namespace AdventureStory
                     option3Label.Text = "Go in castle";
                     break;
                 case 5:
-                    //imageBox.Image = Properties.Resources.
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = false;
+                    option3Button.Enabled = true;
+                    imageBox.Image = Properties.Resources.River;
                     outputLabel.Text = "You find water, Take a Drink?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "";
                     option3Label.Text = "No";
                     break;
                 case 6:
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = false;
+                    option3Button.Enabled = false;
                     outputLabel.Text = "You took a drink of water.";
                     Refresh();
                     Thread.Sleep(750);
@@ -254,6 +274,9 @@ namespace AdventureStory
                     option3Label.Text = "";
                     break;
                 case 7:
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = true;
+                    option3Button.Enabled = false;
                     imageBox.Image = Properties.Resources.Bear;
                     outputLabel.Text = "It was a bear and you died.";
                     Refresh();
@@ -264,6 +287,10 @@ namespace AdventureStory
                     option3Label.Text = "";
                     break;
                 case 8:
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = true;
+                    option3Button.Enabled = true;
+                    imageBox.Image = Properties.Resources.Black;
                     outputLabel.Text = "You are faced with level 2.";
                     Refresh();
                     Thread.Sleep(1000);
@@ -275,6 +302,10 @@ namespace AdventureStory
                     option3Label.Text = "July";
                     break;
                 case 9:
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = true;
+                    option3Button.Enabled = false;
+                    imageBox.Image = Properties.Resources.Black;
                     outputLabel.Text = "Level 2 complete";
                     Refresh();
                     Thread.Sleep(1000);
@@ -284,34 +315,49 @@ namespace AdventureStory
                     option2Label.Text = "Down";
                     option3Label.Text = "";
                     break;
-                case 10: 
+                case 10:
+                    option1Button.Enabled = false;
+                    option2Button.Enabled = false;
+                    option3Button.Enabled = true;
                     outputLabel.Text = "You trip and fall down.";
                     Refresh();
                     Thread.Sleep(1000);
                     RollDice.Play();
+                    imageBox.Image = Properties.Resources.Black;
                     outputLabel.Text = "Press your Luck";
                     option1Label.Text = "Roll";
                     option2Label.Text = "The";
                     option3Label.Text = "Dice.";
                     break;
                 case 11:
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = true;
+                    option3Button.Enabled = true;
+                    imageBox.Image = Properties.Resources.Black;
                     outputLabel.Text = "You are faced with level 3.";
                     Refresh();
                     Thread.Sleep(1000);
                     Thinking.Play();
-                    //imageBox.Image = Properties.Resources.
+                    imageBox.Image = Properties.Resources.Rope;
                     outputLabel.Text = "Pick an Item to escape";
                     option1Label.Text = "Parachute";
                     option2Label.Text = "Water";
                     option3Label.Text = "Rope";
                     break;
                 case 13:
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = false;
+                    option3Button.Enabled = false;
+                    imageBox.Image = Properties.Resources.Victory;
                     outputLabel.Text = "You Escaped!";
                     option1Label.Text = "Freedom";
                     option2Label.Text = "";
                     option3Label.Text = "";
                     break;
                 case 14:
+                    option1Button.Enabled = false;
+                    option2Button.Enabled = false;
+                    option3Button.Enabled = true;
                     imageBox.Image = Properties.Resources.Bear;
                     Refresh();
                     BearGrowl.Play();
@@ -321,13 +367,17 @@ namespace AdventureStory
                     option3Label.Text = "Play Again";
                     break;
                 case 99:
+                    option1Button.Enabled = true;
+                    option2Button.Enabled = true;
+                    option3Button.Enabled = false;
+                    imageBox.Image = Properties.Resources.Black;
                     outputLabel.Text = "Unfortunate, Play Again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
                     option3Label.Text = "";
                     break;
                 case 100:
-                    //imageBox.Image = Properties.Resources.
+                    imageBox.Image = Properties.Resources.Black;
                     outputLabel.Text = "Thanks for playing";
                     option1Label.Text = "";
                     option2Label.Text = "";

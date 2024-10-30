@@ -124,6 +124,9 @@
   <data name="Bear_Growl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bear Growl.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Calendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Calendar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,8 +139,14 @@
   <data name="Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Map.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="River" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\River.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Roll_Dice" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Roll Dice.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Rope" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rope.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Scary_Sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Scary Sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -147,5 +156,8 @@
   </data>
   <data name="Thinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Thinking.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Victory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Victory.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

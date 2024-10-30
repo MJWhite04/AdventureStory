@@ -82,6 +82,16 @@ namespace AdventureStory.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Black {
+            get {
+                object obj = ResourceManager.GetObject("Black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Calendar {
             get {
                 object obj = ResourceManager.GetObject("Calendar", resourceCulture);
@@ -120,11 +130,31 @@ namespace AdventureStory.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap River {
+            get {
+                object obj = ResourceManager.GetObject("River", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream Roll_Dice {
             get {
                 return ResourceManager.GetStream("Roll_Dice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rope {
+            get {
+                object obj = ResourceManager.GetObject("Rope", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -153,6 +183,16 @@ namespace AdventureStory.Properties {
         internal static System.IO.UnmanagedMemoryStream Thinking {
             get {
                 return ResourceManager.GetStream("Thinking", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Victory {
+            get {
+                object obj = ResourceManager.GetObject("Victory", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
