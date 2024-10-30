@@ -27,9 +27,6 @@ namespace AdventureStory
         SoundPlayer Thinking = new SoundPlayer(Properties.Resources.Thinking);
         SoundPlayer RollDice = new SoundPlayer(Properties.Resources.Roll_Dice);
 
-        //code for images
-
-
         public Form1()
         {
             InitializeComponent();
@@ -216,6 +213,7 @@ namespace AdventureStory
                     Refresh();
                     Thread.Sleep(1000);
                     Thinking.Play();
+                    imageBox.Image = Properties.Resources.Map;
                     outputLabel.Text = "Level 1: What country has the largest land mass";
                     option1Label.Text = "Canada";
                     option2Label.Text = "Russia";
@@ -225,6 +223,7 @@ namespace AdventureStory
                     outputLabel.Text = "Beat level 1/3";
                     Refresh();
                     Thread.Sleep(1000);
+                    imageBox.Image = Properties.Resources.Fork_in_the_road;
                     outputLabel.Text = "There is a fork in the road.";
                     option1Label.Text = "Right";
                     option2Label.Text = "Left";
@@ -232,12 +231,14 @@ namespace AdventureStory
                     break;
                 case 4:
                     BearGrowl.Play();
+                    imageBox.Image = Properties.Resources.forest;
                     outputLabel.Text = "You hear something in the woods what do you do?";
                     option1Label.Text = "Investigate";
                     option2Label.Text = "Run";
                     option3Label.Text = "Go in castle";
                     break;
                 case 5:
+                    //imageBox.Image = Properties.Resources.
                     outputLabel.Text = "You find water, Take a Drink?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "";
@@ -253,6 +254,7 @@ namespace AdventureStory
                     option3Label.Text = "";
                     break;
                 case 7:
+                    imageBox.Image = Properties.Resources.Bear;
                     outputLabel.Text = "It was a bear and you died.";
                     Refresh();
                     Thread.Sleep(1000);
@@ -266,6 +268,7 @@ namespace AdventureStory
                     Refresh();
                     Thread.Sleep(1000);
                     Thinking.Play();
+                    imageBox.Image = Properties.Resources.Calendar;
                     outputLabel.Text = "How many Months have 28 Days?";
                     option1Label.Text = "All";
                     option2Label.Text = "February";
@@ -275,6 +278,7 @@ namespace AdventureStory
                     outputLabel.Text = "Level 2 complete";
                     Refresh();
                     Thread.Sleep(1000);
+                    imageBox.Image = Properties.Resources.Staircase;
                     outputLabel.Text = "Theres a stairwell, Go up or Down";
                     option1Label.Text = "Up";
                     option2Label.Text = "Down";
@@ -295,6 +299,7 @@ namespace AdventureStory
                     Refresh();
                     Thread.Sleep(1000);
                     Thinking.Play();
+                    //imageBox.Image = Properties.Resources.
                     outputLabel.Text = "Pick an Item to escape";
                     option1Label.Text = "Parachute";
                     option2Label.Text = "Water";
@@ -307,6 +312,9 @@ namespace AdventureStory
                     option3Label.Text = "";
                     break;
                 case 14:
+                    imageBox.Image = Properties.Resources.Bear;
+                    Refresh();
+                    BearGrowl.Play();
                     outputLabel.Text = "You Rappel down the wall and find the bear.";
                     option1Label.Text = "";
                     option2Label.Text = "";
@@ -319,6 +327,7 @@ namespace AdventureStory
                     option3Label.Text = "";
                     break;
                 case 100:
+                    //imageBox.Image = Properties.Resources.
                     outputLabel.Text = "Thanks for playing";
                     option1Label.Text = "";
                     option2Label.Text = "";

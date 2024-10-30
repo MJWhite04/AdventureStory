@@ -92,5 +92,26 @@
   <ItemGroup>
     <None Include="Resources\Roll Dice.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork in the road.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bear.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Staircase.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
